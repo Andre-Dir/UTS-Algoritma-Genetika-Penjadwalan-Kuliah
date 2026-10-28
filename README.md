@@ -291,34 +291,9 @@ Saat ini fungsi `load_data()` memvalidasi skala **tepat 20 mata kuliah, 8 dosen,
 
 | Nama | NIM | Peran |
 | --- | --- | --- |
-| _Isi nama anggota 1_ | _Isi NIM_ | _Ketua/Analis_ |
-| _Isi nama anggota 2_ | _Isi NIM_ | _Programmer AG_ |
-| _Isi nama anggota 3_ | _Isi NIM_ | _Fitness dan Validasi_ |
-| _Isi nama anggota 4_ | _Isi NIM_ | _Eksperimen/Pengujian_ |
-| _Isi nama anggota 5 (jika ada)_ | _Isi NIM_ | _Dokumentasi/Presentasi_ |
+| _Muhammad Aziz Arrahman_ | _2430305030020_ | _Ketua/Analis_ |
+| _Fajar Oktavian Ramadhan_ | _2430205030023_ | _Programmer AG_ |
+| _Kelvin Andre Hardian_ | _2430305030011_ | _Fitness dan Validasi_ |
+| _Giovanni Maranatha_ | _2430305030022_ | _Eksperimen/Pengujian_ |
+| _Muhamad Shaufi Wafa Bawjazani Shodiqin_ | _2430205030028_ | _Dokumentasi/Presentasi_ |
 
-### Berkas yang dipersiapkan untuk UTS
-
-- [ ] Kode dan README pada repository GitHub/GitLab.
-- [ ] Dataset dan hasil **minimal 10 run** dengan seed berbeda.
-- [ ] Tabel jadwal akhir, keluaran CSV/Excel, dan grafik konvergensi.
-- [ ] Laporan UTS **8–12 halaman** sesuai ketentuan dosen.
-- [ ] Presentasi **15 menit**, demo langsung, dan persiapan tanya jawab individu.
-- [ ] Dosen ditambahkan sebagai *collaborator* sesuai instruksi tugas.
-
-### Menyimpan perubahan README ke GitHub
-
-Jika sudah berada di folder repository hasil clone, gunakan:
-
-```powershell
-git status
-git add README.md
-git commit -m "docs: update GENETICA project README"
-git push origin main
-```
-
-Tidak perlu menjalankan `git init` atau `git remote add origin` lagi pada repository yang sudah terhubung.
-
----
-
-**GENETICA** — Implementasi Algoritma Genetika untuk simulasi optimasi penjadwalan kuliah S-1 Teknik Informatika.
