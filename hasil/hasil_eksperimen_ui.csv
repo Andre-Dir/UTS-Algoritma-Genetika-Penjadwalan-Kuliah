@@ -1,0 +1,11 @@
+﻿Run,Seed,Seleksi,Crossover,Fitness_Terbaik,Fitness_Rata_Populasi_Akhir,Generasi_Valid_Pertama,Generasi_Terakhir,Total_Pelanggaran,Durasi_Detik
+1,101,roulette,one_point,1.0,0.21191818,25,25,0,0.319
+2,102,roulette,one_point,1.0,0.22932245,29,29,0,0.344
+3,103,roulette,one_point,1.0,0.09315874,15,15,0,0.205
+4,104,roulette,one_point,1.0,0.10660401,21,21,0,0.256
+5,105,roulette,one_point,1.0,0.19035233,20,20,0,0.235
+6,106,tournament,uniform,1.0,0.21770917,19,19,0,0.219
+7,107,tournament,uniform,1.0,0.19314429,18,18,0,0.24
+8,108,tournament,uniform,1.0,0.15053634,15,15,0,0.222
+9,109,tournament,uniform,1.0,0.08435884,11,11,0,0.162
+10,110,tournament,uniform,1.0,0.25252861,29,29,0,0.379

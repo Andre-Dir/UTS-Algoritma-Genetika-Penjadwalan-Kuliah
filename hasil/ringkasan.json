@@ -1,0 +1,27 @@
+{
+  "jumlah_run": 10,
+  "jumlah_solusi_valid": 10,
+  "rata_fitness_terbaik": 1.0,
+  "rata_fitness_populasi_akhir": 0.172963,
+  "terbaik_seed": 109,
+  "terbaik_fitness": 1.0,
+  "terbaik_generasi_valid": 11,
+  "pelanggaran_terbaik": {
+    "dosen": 0,
+    "kelas": 0,
+    "ruangan": 0,
+    "kapasitas": 0,
+    "indeks": 0
+  },
+  "rata_waktu_detik": 0.167,
+  "parameter": {
+    "population_size": 100,
+    "max_generations": 350,
+    "crossover_rate": 0.85,
+    "mutation_rate": 0.09,
+    "elitism": 2,
+    "tournament_size": 3
+  },
+  "simulasi": true,
+  "catatan": "Kapasitas ruang dan ID kelas yang kosong berasal dari asumsi simulasi. Dosen dan mata kuliah sesuai file sumber."
+}

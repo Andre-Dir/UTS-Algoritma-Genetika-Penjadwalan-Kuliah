@@ -1,0 +1,11 @@
+﻿seed,selection,crossover,fitness_terbaik,fitness_rata_populasi_akhir,generasi_valid_pertama,generasi_berjalan,durasi_detik,run,pelanggaran_dosen,pelanggaran_kelas,pelanggaran_ruangan,pelanggaran_kapasitas,pelanggaran_indeks
+101,roulette,one_point,1.0,0.2119181831,25,25,0.211,1,0,0,0,0,0
+102,roulette,one_point,1.0,0.2293224455,29,29,0.248,2,0,0,0,0,0
+103,roulette,one_point,1.0,0.093158738,15,15,0.138,3,0,0,0,0,0
+104,roulette,one_point,1.0,0.1066040052,21,21,0.169,4,0,0,0,0,0
+105,roulette,one_point,1.0,0.1903523282,20,20,0.154,5,0,0,0,0,0
+106,tournament,uniform,1.0,0.2177091658,19,19,0.157,6,0,0,0,0,0
+107,tournament,uniform,1.0,0.1931442852,18,18,0.157,7,0,0,0,0,0
+108,tournament,uniform,1.0,0.1505363427,15,15,0.118,8,0,0,0,0,0
+109,tournament,uniform,1.0,0.0843588363,11,11,0.09,9,0,0,0,0,0
+110,tournament,uniform,1.0,0.2525286103,29,29,0.225,10,0,0,0,0,0

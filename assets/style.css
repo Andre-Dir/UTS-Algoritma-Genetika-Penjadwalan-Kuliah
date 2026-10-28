@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+:root { --ink:#ecf2ff; --muted:#98a8c7; --purple:#9185ff; --cyan:#41dbdf; --panel:#121a2e; }
+html,body,[class*="css"] { font-family:'DM Sans',sans-serif; }
+.stApp {
+ background: radial-gradient(ellipse 44% 36% at 89% -8%,rgba(125,93,255,.19),transparent 78%),
+             radial-gradient(ellipse 46% 38% at -8% 85%,rgba(15,155,179,.1),transparent 85%),#080e1c;
+}
+#MainMenu,footer{visibility:hidden}
+.block-container{padding-top:1.7rem;padding-bottom:4rem;max-width:1420px}
+section[data-testid="stSidebar"] {background:linear-gradient(165deg,#10182b 0%,#0b1120 86%)!important;border-right:1px solid #22304a}
+section[data-testid="stSidebar"] .block-container{padding-top:1.5rem}
+h1,h2,h3,h4{font-family:'Outfit',sans-serif;letter-spacing:-.035em;color:#f2f5ff}
+h1{font-weight:800!important;line-height:1.1!important}
+h2{font-weight:700!important}
+[data-testid="stMetric"]{border-radius:20px;min-height:112px;padding:18px 18px 12px;
+ background:linear-gradient(152deg,#162139,#111a2d)!important;border:1px solid #273650;
+ box-shadow:0 12px 28px rgba(0,0,0,.09)}
+[data-testid="stMetricLabel"]{font-size:.86rem;color:#a2b2d2}
+[data-testid="stMetricValue"]{font-family:'Outfit',sans-serif;font-weight:700;letter-spacing:-.04em;font-size:2rem}
+[data-testid="stMetricDelta"]{font-size:.75rem}
+.stButton>button[kind="primary"],div[data-testid="stFormSubmitButton"] button[kind="primary"]{
+ color:#fff;background:linear-gradient(100deg,#786af4,#5b8bed)!important;
+ border:none;border-radius:12px;font-weight:700;padding:.7em 1.35em;box-shadow:0 8px 25px rgba(116,110,255,.19);
+ transition:transform .15s,filter .15s;
+}
+.stButton>button[kind="primary"]:hover{transform:translateY(-1px);filter:brightness(1.1)}
+.stButton>button, .stDownloadButton>button{border-radius:12px!important;min-height:2.7rem;border-color:#31425e;font-weight:600}
+.stButton>button:hover,.stDownloadButton>button:hover{border-color:#9185ff;color:#e3e1ff}
+[data-testid="stVerticalBlockBorderWrapper"]>div:has(>.stVerticalBlock){border-color:#293851}
+[data-baseweb="tab-list"]{gap:6px}
+[data-baseweb="tab"]{border-radius:8px;padding:9px 16px;color:#aab8d5}
+[data-baseweb="tab"][aria-selected="true"]{color:#a89bff;border-color:#a89bff}
+[data-testid="stAlert"]{border-radius:14px}
+[data-testid="stDataFrame"]{border:1px solid #263852;border-radius:14px;overflow:hidden}
+[data-testid="stExpander"]{background:#121b2d;border:1px solid #25354f;border-radius:14px}
+label,div[data-testid="stWidgetLabel"]{color:#cbd7ee}
+hr{border-color:#26354b}
+.panel{background:linear-gradient(150deg,#141f36,#10182a);padding:23px 24px;border:1px solid #283b58;border-radius:22px;}
+.hero{position:relative;overflow:hidden;padding:38px 40px;border-radius:26px;margin:8px 0 23px;border:1px solid rgba(156,147,255,.24);
+ background:radial-gradient(circle at 87% 34%,rgba(133,111,255,.39),transparent 35%),
+ linear-gradient(108deg,#182947 0%,#13223d 47%,#211b4d 100%)}
+.hero:after{content:'◈';position:absolute;right:50px;top:-32px;font-size:240px;font-weight:300;color:rgba(169,171,255,.075);line-height:1;pointer-events:none}
+.eyebrow{color:#8be5e3;letter-spacing:.15em;font-weight:800;font-size:.72rem;text-transform:uppercase}
+.hero h1{font-family:Outfit,sans-serif;color:#fff;font-size:clamp(2rem,4vw,3.25rem);max-width:750px;line-height:1.12;margin:14px 0 12px;letter-spacing:-.06em}
+.hero p{max-width:730px;color:#bdcee8;font-size:1rem;line-height:1.65;margin:0}
+.pill{display:inline-block;padding:7px 13px;border:1px solid rgba(115,227,219,.26);border-radius:99px;
+ color:#9ce5dc;background:rgba(58,195,187,.09);font-size:.77rem;font-weight:700;letter-spacing:.04em}
+.sectioncap{color:#93a4c4;letter-spacing:.11em;text-transform:uppercase;font-size:.72rem;font-weight:800;margin:16px 0 9px}
+.feature{background:linear-gradient(135deg,#131f34,#0f1727);border:1px solid #293956;border-radius:18px;padding:21px;min-height:158px}
+.feature .icon{display:inline-block;border-radius:12px;padding:9px 11px;color:#dcd9ff;background:rgba(132,115,247,.13);font-size:1.1rem}
+.feature h4{font-family:Outfit,sans-serif;margin:13px 0 7px;font-size:1.03rem}
+.feature p{font-size:.86rem;color:#9eaecc;line-height:1.6;margin:0}
+.brand-title{font-family:Outfit,sans-serif;letter-spacing:-.07em;font-size:2rem;font-weight:800;color:#eff4ff;line-height:1}
+.brand-title span{color:#9b8aff}
+.brand-sub{color:#889fc6;font-size:.72rem;letter-spacing:.14em;font-weight:800;margin-top:7px}
+.side-note{background:rgba(124,117,233,.08);border:1px solid #323963;border-radius:13px;padding:14px;color:#b4c2dc;font-size:.83rem;line-height:1.5}
+.chip{display:inline-block;color:#a8e3ed;border:1px solid #2c5a64;background:rgba(63,196,210,.08);padding:5px 11px;border-radius:30px;font-size:.77rem;margin:2px}
+.small-note{color:#95a6c6;font-size:.85rem;line-height:1.6}
+footer{display:none}
+@media(max-width:850px){.hero{padding:26px 24px}.hero:after{display:none}.block-container{padding-top:1rem}}
+
+/* Preset Otomatis — panel ringkas yang tetap selaras dengan dark theme GENETICA. */
+.auto-config-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0 20px}
+.auto-config-grid>div{border:1px solid #2f3e5c;border-radius:14px;background:linear-gradient(140deg,#1a2741,#141e33);padding:14px 15px;min-height:81px}
+.auto-config-grid span{display:block;color:#a0afcb;font-size:.65rem;letter-spacing:.09em;font-weight:800}
+.auto-config-grid strong{display:block;color:#f6f5ff;font-family:Outfit,sans-serif;font-size:1.6rem;line-height:1.45}
+@media(max-width:640px){.auto-config-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
