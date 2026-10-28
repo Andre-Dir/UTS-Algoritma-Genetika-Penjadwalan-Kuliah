@@ -1,4 +1,4 @@
-# GENETICA — Optimasi Penjadwalan Kuliah dengan Algoritma Genetika
+# GENETICA — Optimasi Penjadwalan Kuliah dengan Algoritma Genetika Kelompok 5
 
 **Proyek Ujian Tengah Semester (UTS) — Algoritma Genetika**  
 **Program Studi S-1 Teknik Informatika**
